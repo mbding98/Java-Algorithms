@@ -33,8 +33,7 @@ public class SelectionSort {
 		
 		long diff = end - start;
 		for(int i : array) {System.out.print(i + " ");}
-		System.out.println('\n'+diff*Math.pow(10,-9) + " seconds elapsed");
+		System.out.println("\n"+diff*Math.pow(10,-9) + " seconds elapsed");
 		
 	}
-
 }
