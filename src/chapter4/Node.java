@@ -6,13 +6,14 @@ public class Node {
 	
 	public Node(int data) {
 		this.data = data;
+		this.nextNode = null;
 	}
 	
 	public int getData() {
 		return this.data;
 	}
 	
-	public Node getNode() {
+	public Node getNextNode() {
 		return this.nextNode;
 	}
 	
@@ -20,8 +21,17 @@ public class Node {
 		this.data = data;
 	}
 	
-	public void setNode(Node nextNode) {
+	/***
+	 * Sets the next node in the linked list 
+	 * @param nextNode
+	 */
+	public void setNextNode(Node nextNode) {
 		this.nextNode = nextNode;
+	}
+	
+	@Override
+	public String toString() {
+		return "Data: " + this.data;
 	}
 	
 }
