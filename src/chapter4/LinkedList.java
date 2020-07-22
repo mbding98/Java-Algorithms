@@ -22,7 +22,7 @@ public class LinkedList {
 			
 			current = current.getNextNode();
 		}
-		return null;
+		return null; 
 	}
 	
 	public int length() {
